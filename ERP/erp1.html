@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+   <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap-grid.min.css">
+      <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      	<link rel="stylesheet" type="text/css" href="css/main.css">
+      	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="icon-font.min.css">
+      
+    <title>Student Management System</title>
+  </head>
+  <body>
+     
+<!--###### BACKGROUND VIDEO#######-->
+      <video id="videoBG" poster="poster.JPG" autoplay muted loop>
+    <source src="background_video.mp4" type="video/mp4">
+</video>
+<!--##### HEADER  #####-->
+      
+      <div class="jumbotron">
+           <h1>STUDENT MANAGEMENT SYSTEM</h1>
+      <div class="row">
+         <div class="col-2 col-md-2 col-lg-1 offset-lg-1 col-sm-2 logoimg">
+              <img class="img-fluid logo" src="1200px-NIT-Delhi_Logo.svg.png" width="100px">
+          </div>
+          <div class="col-8 col-sm-8 col-md-8 col-lg-8 nit">
+        <h1>NATIONAL INSTITUTE OF TECHNOLOGY, DELHI</h1>
+         <p> (An autonomous Institute under the aegis of Ministry of HRD, Govt. of India)</p>
+          </div>
+
+           </div>
+             </div>
+      
+      
+<!--###### THE LOGIN OPTIONS/BODY ##############-->
+      
+      <div class="main">
+      <h2>WELCOME TO ERP<br>NIT DELHI</h2>
+
+<div id="options" class="container d-flex flex-column flex-md-row justify-content-between">
+          <button type="button" class="btn btn-lg btn-info rounded-pill shadows mb-3 btn1" data-toggle="modal" data-target="#exampleModalCenter">STUDENT LOGIN</button>
+          <button type="button" class="btn btn-lg btn-info rounded-pill shadows mb-3 btn1" data-toggle="modal" data-target="#exampleModalCenter2">PARENT LOGIN</button>
+          <button type="button" class="btn btn-lg btn-info rounded-pill shadows mb-3 btn1" data-toggle="modal" data-target="#exampleModalCenter4">EMPLOYEE LOGIN</button>
+          <button type="button" class="btn btn-lg btn-info rounded-pill shadows mb-3 btn1" data-toggle="modal" data-target="#exampleModalCenter6">ADMIN LOGIN</button>
+  </div>
+   
+
+             </div>
+      
+
+      
+      
+<!-- ##########The social media icon bar############## -->
+      
+<div class="icon-bar">
+  <a href="https://www.facebook.com/nitdelhi2010" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+  <a href="https://twitter.com/NITDofficial" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
+  <a href="https://www.linkedin.com/school/national-institute-of-technology-delhi/" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
+<a href="https://www.youtube.com/channel/UCw-vO6XOu6wd8U9BmoQ9ovQ" target="_blank" class="youtube"><i class="fa fa-youtube"></i></a>
+
+</div>
+      
+      
+<!--#########FOOTER###########-->
+      
+    <div id="datetime" class="footer group container-fluid">
+            <div class="row">
+            <div class="col-3 col-sm-3 col-md-2 col-lg-2 update">
+              
+            <p>Update: April, 2020</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+                 <p>This Website belongs to National Institute of Technology, Delhi <br>Copyright &copy; 2020 - All Rights Reserved - NIT Delhi</p>
+            </div>
+                <div class="col-3 col-sm-3 col-md-2 col-lg-2 datetime">
+                 <span id="datetime1" ><strong></strong></span><br>
+            <span id="datetime2"><strong></strong></span>
+           </div>
+           
+          </div>
+      </div>
+      
+      
+<!--###########STUDENT LOGIN###############-->
+      
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="wrap-login100 p-t-30 p-b-50">
+				<span class="login100-form-title p-b-41">
+					Student Account <br>Login
+				</span>
+   
+    <div class="modal-content">
+     <div class="limiter">
+				<form class="login100-form p-b-33 p-t-5" action="studentlogin.php" method="post">
+
+					<div class="wrap-input100">
+						<input class="input100" id="username" type="text" name="username" placeholder="User name" required>
+						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
+					</div>
+
+					<div class="wrap-input100">
+						<input class="input100" id="password" type="password" name="password" placeholder="Password" required>
+						<span class="focus-input100" data-placeholder="&#xe80f;"></span>
+					</div>
+
+					<div class="container-login100-form-btn m-t-32">
+						<button type="submit" class="login100-form-btn">
+							Login
+						</button>
+					</div>
+                </form>
+			</div>
+		</div>
+	</div>
+         </div>
+    </div>  
+<!-- #############STUDENT LOGIN END###############-->
+      
+      
+<!-- ###########PARENTS LOGIN START ###############-->
+      
+    <!-- Modal -->
+<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="wrap-login100 p-t-30 p-b-50">
+				<span class="login100-form-title p-b-41">
+					Parents Account<br> Login
+				</span>
+   
+    <div class="modal-content">
+     <div class="limiter">
+				<form class="login100-form p-b-33 p-t-5" action="parentslogin.php" method="post">
+
+					<div class="wrap-input100">
+						<input class="input100" id="username" type="text" name="username" placeholder="User name" required>
+						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
+					</div>
+
+					<div class="wrap-input100">
+						<input class="input100" id="password" type="password" name="password" placeholder="Password" required>
+						<span class="focus-input100" data-placeholder="&#xe80f;"></span>
+					</div>
+
+					<div class="container-login100-form-btn m-t-32">
+						<button type="submit" class="login100-form-btn">
+							Login
+						</button>
+					</div>
+                </form>
+			</div>
+		</div>
+	</div>
+         </div>
+    
+    </div>   
+<!--#############PARENTS LOGIN END #################-->
+      
+      
+      <!-- ###########EMPLOYEE LOGIN START #################-->
+      
+    <!-- Modal -->
+<div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="wrap-login100 p-t-30 p-b-50">
+				<span class="login100-form-title p-b-41">
+					EMPLOYEE Account<br> Login
+				</span>
+   
+    <div class="modal-content">
+     <div class="limiter">
+				<form class="login100-form p-b-33 p-t-5" action="employeelogin.php" method="post">
+
+					<div class="wrap-input100">
+						<input class="input100" id="username" type="text" name="username" placeholder="User name" required>
+						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
+					</div>
+
+					<div class="wrap-input100">
+						<input class="input100" id="password" type="password" name="password" placeholder="Password" required>
+						<span class="focus-input100" data-placeholder="&#xe80f;"></span>
+					</div>
+
+					<div class="container-login100-form-btn m-t-32">
+						<button type="submit" class="login100-form-btn">
+							Login
+						</button>
+					</div>
+                </form>
+			</div>
+		</div>
+	</div>
+         </div>
+    </div>  
+<!--#############EMPLOYEE LOGIN END##########-->
+      
+      
+      <!-- ###########ADMIN LOGIN START############## -->
+      
+    <!-- Modal -->
+<div class="modal fade" id="exampleModalCenter6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="wrap-login100 p-t-30 p-b-50">
+				<span class="login100-form-title p-b-41">
+					ADMIN Account<br> Login
+				</span>
+   
+    <div class="modal-content">
+     <div class="limiter">
+				<form class="login100-form p-b-33 p-t-5" action="adminlogin.php" method="post">
+
+					<div class="wrap-input100">
+						<input class="input100" id="username" type="text" name="username" placeholder="User name" required>
+						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
+					</div>
+
+					<div class="wrap-input100">
+						<input class="input100" id="password" type="password" name="password" placeholder="Password" required>
+						<span class="focus-input100" data-placeholder="&#xe80f;"></span>
+					</div>
+
+					<div class="container-login100-form-btn m-t-32">
+						<button type="submit" class="login100-form-btn">
+							Login
+						</button>
+					</div>
+                </form>
+			</div>
+		</div>
+	</div>
+         </div>
+    </div>  
+<!--#############ADMIN LOGIN END##################-->
+     
+       
+      
+            <!-- Optional JavaScript -->
+      
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="MDB-Free_4.16.0/js/jquery.min.js"></script>
+      
+<!--#### JAVASCRIPT MADE##########-->
+      
+    <script src="erp.js"></script>
+      
+    </body>
+</html>

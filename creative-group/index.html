@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="./assets/img/favicons/main.png" type="image/png">
+	<title>Creative Group</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="vendors/linericon/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+	<link rel="stylesheet" href="vendors/animate-css/animate.css">
+	<link rel="stylesheet" href="vendors/flaticon/flaticon.css">
+	<!-- main css -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+		rel="stylesheet">
+	<!-- Start Bootstrap Carousel HEAD section -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/ionicons.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+	<!-- End Bootstrap Carousel HEAD section -->
+	<link rel="stylesheet" href="stylesheet.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
+	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+	<style>
+		.r1 {
+			margin-top: -29%;
+			z-index: 100;
+		}
+
+		.r2 {
+			margin-top: -12%;
+			z-index: 90;
+		}
+
+		.r3 {
+			margin-top: 50px;
+			;
+		}
+
+		.img_centrum img {
+			width: 70%;
+			bottom: 0;
+			cursor: pointer;
+		}
+
+		.img_centrum:hover img {
+			background: #00000029;
+			box-shadow: 5px 5px 10px black;
+			border-radius: 50%;
+			bottom: 0;
+			cursor: pointer;
+		}
+
+		.img_creative img {
+			width: 80%;
+			cursor: pointer;
+
+		}
+
+		.img_creative:hover img {
+			width: 82%;
+			background: #00000029;
+			box-shadow: 5px 5px 10px black;
+			border-radius: 100%;
+			cursor: pointer;
+
+		}
+
+		.img_edifice img {
+			width: 70%;
+			top: 0;
+			cursor: pointer;
+		}
+
+		.img_edifice:hover img {
+			background: #00000029;
+			box-shadow: 5px 5px 10px black;
+			border-radius: 50%;
+			top: 0;
+			cursor: pointer;
+		}
+
+		.bg-hover-img::after {
+			overflow: hidden;
+			content: '';
+			width: 100vw;
+			height: 100%;
+			position: fixed;
+			top: 0;
+			left: 0;
+			background-size: cover;
+			z-index: -1;
+			display: none;
+			transition: all .2s ease;
+		}
+
+		.bg-hover-img:hover::after {
+			display: block;
+		}
+
+		.img_signatures::after {
+			background-image: url('img/bg_s.png');
+		}
+
+		.img_centrum::after {
+			background-image: url('img/bg17.png');
+		}
+
+		.img_edifice::after {
+			background-image: url('img/bg9.png');
+		}
+
+		.img_signatures img {
+			width: 70%;
+			top: 0;
+			cursor: pointer;
+
+		}
+
+		.img_signatures:hover img {
+			background: #00000029;
+			box-shadow: 5px 5px 10px black;
+			border-radius: 50%;
+			top: 0;
+			cursor: pointer;
+
+		}
+
+		@media screen and (min-width: 899px) {
+			.popo1 {
+				display: none;
+			}
+		}
+
+		@media screen and (max-width: 900px) {
+			.popo {
+				display: none;
+			}
+
+			.popo {
+				display: none;
+			}
+
+			.main-section a {
+				width: 200px;
+				height: 200px;
+			}
+
+			.main-section a.img_creative {
+				width: 250px;
+				height: 250px;
+				left: 90px;
+				transform: translate(-50%, -50%);
+			}
+
+			.img_signatures {
+				top: 0;
+				left: 50%;
+				transform: translate(-50%, 0);
+			}
+
+			.img_edifice {
+				top: 50%;
+				right: 0;
+				transform: translate(0, -50%);
+			}
+		}
+
+		a:hover {
+			cursor: pointer;
+		}
+
+		.slideshow1 {
+			display: none;
+		}
+
+		.img_signatures:hover .slideshow {
+			display: none !important;
+		}
+
+		.img_signatures:hover .slideshow1 {
+			display: block !important;
+		}
+
+		.sig_mob img {
+			width: 55%;
+		}
+
+		.cre_mob img {
+			width: 40%;
+		}
+
+		.edi_mob img {
+			width: 55%;
+		}
+
+		.cen_mob img {
+			width: 55%;
+		}
+
+		.loader {
+			width: 100px;
+			height: 80px;
+			position: absolute;
+			top: 0;
+			right: 0;
+			left: 0;
+			bottom: 0;
+			margin: auto;
+			z-index: 103;
+		}
+
+		.loader::before {
+			content: '';
+			width: 100vw;
+			height: 100vh;
+			background: white;
+			position: fixed;
+			top: 0;
+			left: 0;
+		}
+
+		.loader .image {
+			width: 100px;
+			height: 160px;
+			font-size: 40px;
+			text-align: center;
+			transform-origin: bottom center;
+			animation: 3s rotate infinite;
+			opacity: 0;
+		}
+
+		.loader span {
+			display: block;
+			width: 100%;
+			text-align: center;
+			position: absolute;
+			bottom: 0;
+		}
+
+		@keyframes rotate {
+			0% {
+				transform: rotate(90deg);
+			}
+
+			10% {
+				opacity: 0;
+			}
+
+			35% {
+				transform: rotate(0deg);
+				opacity: 1;
+			}
+
+			65% {
+				transform: rotate(0deg);
+				opacity: 1;
+			}
+
+			80% {
+				opacity: 0;
+			}
+
+			100% {
+				transform: rotate(-90deg);
+			}
+		}
+	</style>
+</head>
+
+<body style="overflow: hidden;">
+	<div id="loader" class="loader">
+		<div class="image">
+			<i class="fa fa-rocket"></i>
+		</div>
+		<span></span>
+	</div>
+	<!--================Header Menu Area =================-->
+
+	<header class="header_area">
+		<div class="top_menu">
+			<div class="container">
+				<div class="top_inner">
+					<div class="row">
+						<div style="display: inline"></div>
+						<div id="portfolio-wrapper">
+							<div class="item-wrap">
+								&nbsp; &nbsp;<a style="text-decoration:none; font-size: 10px;"><a href="#"><i class="fa fa-phone"
+											style="color: #facd48;"></i>
+										+91 7470025555</a></a>
+							</div>
+						</div> &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+						<div id="portfolio-wrapper">
+							<div class="item-wrap">
+								<a style="text-decoration: none; font-size: 10px;"><a href="#"><i class="fa fa-envelope"
+											style="color: #facd48;"></i>
+										info@creativegroup.com</a></a>
+							</div>
+						</div>
+
+					</div>
+					<div class="float-right">
+						<ul class="list header_socila">
+							<li><a href="https://instagram.com/creativegroups18?igshid=1k4tfnrlr59yp"><i
+										class="fa fa-instagram"></i></a></li>
+							<li><a href="https://www.facebook.com/CreativeGroup18/"><i class="fa fa-facebook"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</header>
+	<!--================Header Menu Area =================-->
+	<!--================Home Banner Area =================-->
+
+	<div class="container1 popo" style="overflow: hidden;">
+		<header>
+			<section class="home_banner_area">
+				<div class="banner_inner">
+					<div class="container ">
+						<div class="row r1">
+							<div class="col-md-4" style="text-align: center;">
+								<a class="bg-hover-img img_signatures" href="signatures/index.html">
+									<img src="img/signatures.gif" alt="centrum">
+								</a>
+							</div>
+							<div class="col-md-4" style="text-align: center;">
+
+							</div>
+							<div class="col-md-4" style="text-align: center;">
+								<a class="bg-hover-img img_edifice" href="edifice/index.html"><img src="img/edifice.gif"
+										alt="centrum"></a>
+							</div>
+						</div>
+
+						<div class="row ">
+							<div class="col-md-4"></div>
+							<div class="col-md-4 r2" style="text-align: center;">
+								<a class="img_creative" href="creativegroups/index.html"><img id="creative_image"
+										src="img/creative_group.gif" alt="centrum"></a>
+							</div>
+							<div class="col-md-4"></div>
+
+						</div>
+						<div class="row r3">
+							<div class="col-md-4" style="text-align: center;"></div>
+							<div class="col-md-4" style="text-align: center;">
+								<a class="bg-hover-img img_centrum" href="centrum/index.html"><img src="img/centrum.gif"
+										alt="centrum"></a>
+
+							</div>
+							<div class="col-md-4" style="text-align: center;"></div>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="slideshow1">
+
+					<div class="slideshow-image" style="background-image: url('img/bg9.png')"></div>
+				</div>
+				<div class="slideshow2">
+
+					<div class="slideshow-image" style="background-image: url('img/bg9.png')"></div>
+				</div>
+				<div class="slideshow3">
+
+					<div class="slideshow-image" style="background-image: url('img/bg9.png')"></div>
+				</div>
+				<div class="slideshow">
+					<div class="slideshow-image" style="background-image: url('img/bg12.png'); background-position: center;">
+					</div>
+					<div class="slideshow-image" style="background-image: url('img/bg4.png'); background-position: top;"></div>
+					<div class="slideshow-image" style="background-image: url('img/bg7.png'); background-position: right;"></div>
+					<div class="slideshow-image" style="background-image: url('img/bg9.png'); background-position: bottom;"></div>
+				</div>
+			</section>
+		</header>
+	</div>
+
+
+
+	<div class="container1 popo1">
+		<header>
+			<section class="home_banner_area" style="overflow: hidden !important;">
+				<div class="banner_inner">
+					<div class="container ">
+
+						<div class="row r4">
+							<div class="col-md-12" style="text-align: center;">
+								<a class="sig_mob" href="signatures/dark.paul-themes.com/wp/bauhaus/full-page/index.html"><img
+										src="img/signatures.gif" alt="centrum"></a>
+							</div><br>
+						</div>
+
+						<div class="row r5">
+							<div class="col-md-12" style="padding: 0px;">
+								<a class="cre_mob" href="creativegroups/index.html"><img id="" src="img/creative_group_mobile.gif"
+										alt="centrum"></a>
+
+								<a class="edi_mob" href="edifice/dark.paul-themes.com/wp/bauhaus/full-page/index.html"><img
+										src="img/edifice.gif" alt="centrum"></a>
+							</div><br>
+						</div>
+
+						<div class="row r6">
+							<div class="col-md-12" style="text-align: center;">
+								<a class="cen_mob" href="centrum/dark.paul-themes.com/wp/bauhaus/full-page/index.html"><img
+										src="img/centrum.gif" alt="centrum"></a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="slideshow" style="overflow: hidden !important;">
+					<div class="slideshow-image" style="background-image: url('img/bg12.png')"></div>
+					<div class="slideshow-image" style="background-image: url('img/bg4.png')"></div>
+					<div class="slideshow-image" style="background-image: url('img/bg7.png')"></div>
+					<div class="slideshow-image" style="background-image: url('img/bg9.png')"></div>
+				</div>
+			</section>
+		</header>
+	</div>
+
+
+
+
+	<!--================End Home Banner Area =================-->
+    
+    	<!--================ end modals Area =================-->
+
+	<script type="text/javascript">
+		$(document).on('ready', () => {
+			if (window.innerWidth < 800)
+				$('#creative_image').attr('src', 'img/creative_group_mobile.gif')
+		})
+	</script>
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script>
+		window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')
+	</script>
+	<script src="js/waypoints.js"></script>
+	<script src="js/magnific-popup.js"></script>
+	<script src="js/init.js"></script>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="vendors/lightbox/simpleLightbox.min.js"></script>
+	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+	<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+	<script src="vendors/isotope/isotope-min.js"></script>
+	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+	<script src="vendors/counter-up/jquery.counterup.min.js"></script>
+	<script src="js/mail-script.js"></script>
+	<!--gmaps Js-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+	<script src="js/gmaps.min.js"></script>
+	<script src="js/theme.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			// $('#loader').hide();
+		});
+		var counter = 0;
+
+		// Start the changing images
+		setInterval(function () {
+			if (counter == 9) {
+				counter = 0;
+			}
+
+			changeImage(counter);
+			counter++;
+		}, 3000);
+
+		// Set the percentage off
+		loading();
+
+		function changeImage(counter) {
+			var images = [
+				'<i class="fa fa-fighter-jet"></i>',
+				'<i class="fa fa-rocket"></i>',
+				'<i class="fa fa-fighter-jet"></i>',
+				'<i class="fa fa-rocket"></i>',
+			];
+
+			$(".loader .image").html("" + images[counter] + "");
+		}
+
+		function loading() {
+			var num = 0;
+
+			for (i = 0; i <= 100; i++) {
+				setTimeout(function () {
+					$('.loader span').html(num + '%');
+
+					if (num == 100) {
+						$('#loader').hide(); //loading();
+					}
+					num++;
+				}, i * 30);
+			};
+
+		}
+	</script>
+
+
+</body>
+
+</html>

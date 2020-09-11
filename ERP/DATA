@@ -1,0 +1,19 @@
+STUDENT LOGIN
+user name= username
+password= pass
+email= email
+
+PARENTS LOGIN
+user name= username1
+password= pass1
+email= email1
+
+EMPLOYEE LOGIN
+user name= username2
+password= pass2
+email= email2
+
+ADMIN LOGIN
+user name= username3
+password= pass3
+email= email3

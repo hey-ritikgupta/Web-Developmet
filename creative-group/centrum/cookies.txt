@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.paul-themes.com	TRUE	/	FALSE	1999999999	__cfduid	d24b20ae906bb70bd889093facf387e7c1581077034
+dark.paul-themes.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+.google.com	TRUE	/	FALSE	1999999999	1P_JAR	2020-02-07-12
+.google.com	TRUE	/	FALSE	1999999999	NID	197=OMpGwLtvy3lNahhfa58CjSM8hNsrVDtdpWL2OoZKde_Gw9KIcPV6_vIQFeO_C-Pu3moWC3suN5HY3WQqrr_RMx247IoGY9elsnmIHjjjt-9iIsp9x6kAqRBsdRGHYiHfq15W5XzIMPpeRO9JKiNo3UlSSKDOSLKUsgfk2EZDiqA
+

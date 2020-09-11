@@ -1,0 +1,244 @@
+
+/*Customer Gif CSS*/
+html, body{
+    width: 100% !important;
+    height: 100% !important;
+    padding:0;
+    position: relative;
+  }
+
+.company-icons { 
+    background-color: white;
+  background-image: url();
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+
+ 
+}
+.customer-title h6{
+    position: relative;
+    display: inline-block;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #4AB6E3;
+    transform: translate(0px, -15px);
+}
+.slides {
+    
+    width: 100%;
+    height: 130px;
+    margin: auto;
+    text-align: center;
+   
+   
+    
+    
+}
+
+.slides ul {
+    list-style: none;
+    position: relative;
+
+ 
+}
+.slides ul li img {
+        width: 90%;
+       display: inline-block;
+    vertical-align: middle;
+
+}
+
+
+/* keyframes #anim_slides */
+@-webkit-keyframes anim_slides {
+      0% {
+        opacity:0;
+        
+    }
+    8% {
+        opacity:1;
+     
+    }
+    16% {
+        opacity:0;
+            
+       
+    }
+    30% {
+        opacity:0;
+    }
+    100% {
+        opacity:0;
+    }
+}
+@-moz-keyframes anim_slides {
+    0% {
+        opacity:0;
+     
+    }
+    6% {
+        opacity:1;
+    
+
+    }
+    12% {
+        opacity:0;
+    
+    }
+    30% {
+        opacity:0;
+    }
+    100% {
+        opacity:0;
+    }
+}
+
+.slides ul li {
+    opacity:0;
+    position:absolute;
+    top:0;
+
+    /* css3 animation */
+    -webkit-animation-name: anim_slides;
+    -webkit-animation-duration: 32.0s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-delay: 0;
+    -webkit-animation-play-state: running;
+    -webkit-animation-fill-mode: forwards;
+
+    -moz-animation-name: anim_slides;
+    -moz-animation-duration: 32.0s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+    -moz-animation-delay: 0;
+    -moz-animation-play-state: running;
+    -moz-animation-fill-mode: forwards;
+    
+    animation-name: anim_slides;
+    animation-duration: 32.0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-delay: 0s;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+}
+
+/* css3 delays */
+
+.slides ul  li:nth-child(2), .slides ul  li:nth-child(2) div {
+    -webkit-animation-delay: 4.0s;
+    -moz-animation-delay: 4.0s;
+}
+.slides ul  li:nth-child(3), .slides ul  li:nth-child(3) div {
+    -webkit-animation-delay: 8.0s;
+    -moz-animation-delay: 8.0s;
+}
+.slides ul  li:nth-child(4), .slides ul  li:nth-child(4) div {
+    -webkit-animation-delay: 12.0s;
+    -moz-animation-delay: 12.0s;
+}
+.slides ul  li:nth-child(5), .slides ul  li:nth-child(5) div {
+    -webkit-animation-delay: 16.0s;
+    -moz-animation-delay: 16.0s;
+}
+.slides ul  li:nth-child(6), .slides ul  li:nth-child(6) div {
+    -webkit-animation-delay: 20.0s;
+    -moz-animation-delay: 20.0s;
+}
+.slides ul  li:nth-child(7), .slides ul  li:nth-child(7) div {
+    -webkit-animation-delay: 24.0s;
+    -moz-animation-delay: 24.0s;
+}.slides ul  li:nth-child(8), .slides ul  li:nth-child(8) div {
+		-webkit-animation-delay: 28.0s;
+    -moz-animation-delay: 28.0s;
+}
+.slides ul li img {
+    display:block;
+}
+
+/* keyframes #anim_titles */
+/*
+@-webkit-keyframes anim_titles {
+    0% {
+        left:100%;
+        opacity:0;
+    }
+    5% {
+        left:10%;
+        opacity:1;
+    }
+    20% {
+        left:10%;
+        opacity:1;
+    }
+    25% {
+        left:100%;
+        opacity:0;
+    }
+    100% {
+        left:100%;
+        opacity:0;
+    }
+}
+@-moz-keyframes anim_titles {
+    0% {
+        left:100%;
+        opacity:0;
+    }
+    5% {
+        left:10%;
+        opacity:1;
+    }
+    20% {
+        left:10%;
+        opacity:1;
+    }
+    25% {
+        left:100%;
+        opacity:0;
+    }
+    100% {
+        left:100%;
+        opacity:0;
+    }
+}
+*/
+
+
+
+}
+@media (min-width:100px) and (max-width: 900px){
+   .slides {
+    height: 2em;
+    }
+    .slides ul li img {
+
+    width: 130%;
+}
+    .slides ul{
+        padding: 0px;
+    }
+    .company-icons{
+        height: auto;
+    }
+}
+
+    @media (min-width:100px) and (max-width: 400px){
+   .slides ul li img {
+      width: 2em;;
+    }
+    .slides {
+    height: 50px;
+    } 
+    }

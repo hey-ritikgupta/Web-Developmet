@@ -1,0 +1,14 @@
+#v0 {
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    width: 100%;
+}
+
+#set-height {
+    display: block;
+}
+
+.video {
+    position: absolute;
+}

@@ -1,0 +1,223 @@
+
+
+#videoBG {
+    position:fixed;
+    z-index: -1;
+/*not work if the screen ratio is below 16/9*/
+    width:100%     
+    height: auto;
+}
+@media (min-aspect-ratio: 16/9) {
+    #videoBG {
+        width:100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9) {
+    #videoBG { 
+        width:auto;
+        height: 100%;
+    }
+}
+
+.jumbotron{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+/*    background-image: linear-gradient(to right,  transparent  ,  grey, transparent );*/
+     background: rgba(192, 192, 192, 0.1);
+}
+.nit{
+    padding-top: 10px;
+}
+.jumbotron h1{
+    font-size: 40px;
+    color: white
+}
+h2 {
+  text-align: center;
+  position: relative;
+  top: 40px;
+  font-family: sans;
+    color: whitesmoke;
+    font-size: 50px;
+    font-weight: bolder;
+      text-shadow:
+    -1px -1px 0 #000,
+     0   -1px 0 #000,
+     1px -1px 0 #000,
+     1px  0   0 #000,
+     1px  1px 0 #000,
+     0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000;
+}
+.jumbotron h2{
+    font-size: 40px;
+    color: white
+}
+.jumbotron p{
+    font-size: 20px;
+    color: white
+}
+.btn1:hover {
+  background-color: transparent;
+  color: black;
+  box-shadow: 0 5px 16px 0 rgba(0,0,0,0.50), 0 17px 50px 0 rgba(0,0,0,0.50);
+  transform: translateY(-5px);
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn:active {
+  transform: translateY(5px);
+}
+#options{
+  margin-top: 10%;
+    display: flex;
+      justify-content: center;
+  align-items: center;
+    
+}
+/*iske aage*/
+#datetime{
+  font-family: "Roboto", "Open Sans";
+  font-size: 100%;
+  position: absolute;
+  text-align: center;
+  color:white;
+  background-color: rgba(0,0,0,0.6);
+  bottom: 0;
+    padding-top: 10px;
+}
+#datetime p{
+   font-size: 15px; 
+}
+.modal{
+    color: black;
+}
+.fas1{
+    display: flex;
+    align-content: flex-start;
+}
+
+/*SOCIAL*/
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+.modal-dialog{
+  padding-left: 50px;
+}
+.footer {
+  position: fixed;
+}
+.mybtn{
+    text-align: center;
+}
+
+/*MOBILE*/
+@media (max-width: 780px){
+   
+   .jumbotron p{
+        font-size:10px;
+        
+    }
+   .jumbotron h1{
+        font-size: 35px;
+    }
+     .nit h1{
+        font-size: 23px;
+    }
+    h2 {
+  top: 30px;
+  font-size: 50px;
+    }
+        .btn{
+           width: 60%;
+        }
+    #datetime p{
+   font-size: 10px; 
+}
+    #datetime1,#datetime2{
+        font-size: 10px;
+    }
+    .main h2{
+        font-size: 30px;
+    }
+    .icon-bar{
+        display: none;
+    }
+    .btn{
+       font-size: 12px;
+        
+}
+    .datetime{
+        padding: 0px;
+        display: none;
+    }
+    .update{
+        display: none;
+    }
+    .logo{
+        padding-top: 5px;
+
+    }
+    .logoimg{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    #options{
+  margin-top: 25%;
+    }
+  
+        
+    }
+@media (max-width: 600px){
+    .jumbotron h1{
+        font-size: 27px;
+    }
+     .nit h1{
+        font-size: 16px;
+    }
+   
+}
+
+   
+

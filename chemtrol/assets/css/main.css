@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #d3eefe;
+}
+
+h1 {
+    font-family: "Poppins";
+    color: #43515c;
+    font-size: 70px;
+    font-weight: lighter;
+    letter-spacing: -5px;
+    padding: 50px 0px 0px 0px;
+    z-index: 999;
+}
+
+p {
+    font-family: "Poppins";
+    color: #43515c;
+    font-size: 24px;
+    font-weight: 100;
+    z-index: 999;
+}
+
+.first-section {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+.first-section .images-wrapper {
+    position: absolute;
+}
+
+.ingredient-images {
+    position: absolute;
+    width: 400px;
+    left: calc(50% - 380px);
+    height: 530px;
+    top: 260px;
+}
+
+.section_1_bg {
+    position: absolute;
+    top: -20px;
+    right: -170px;
+    z-index: 1;
+}
+
+.section_1_01 {
+    position: absolute;
+    top: 50px;
+    right: -100px;
+    z-index: -1;
+}
+
+.section_1_01-1 {
+    position: absolute;
+    top: 40px;
+    right: -100px;
+    z-index: -15;
+}
+
+.section_1_02 {
+    position: absolute;
+    top: 40px;
+    right: -110px;
+    z-index: -2;
+}
+
+.section_1_03 {
+    position: absolute;
+    top: 80px;
+    right: -70px;
+    z-index: -3;
+}
+
+.section_1_04 {
+    position: absolute;
+    top: 56px;
+    right: -147px;
+    z-index: -4;
+}
+
+.section_1_05 {
+    position: absolute;
+    top: 84px;
+    right: -88px;
+    z-index: -5;
+}
+
+.section_1_06 {
+    position: absolute;
+    top: 31px;
+    right: -106px;
+    z-index: -6;
+}
+
+.section_1_07 {
+    position: absolute;
+    top: 31px;
+    right: -62px;
+    z-index: -7;
+}
+
+.section_1_07-1 {
+    position: absolute;
+    top: 43px;
+    right: -101px;
+    z-index: -8;
+}
+
+.section_1_08 {
+    position: absolute;
+    top: 31px;
+    right: -82px;
+    z-index: -9;
+}
+
+.section_1_09 {
+    position: absolute;
+    top: 16.5px;
+    right: -58px;
+    z-index: -10;
+}
+
+.section_1_10 {
+    position: absolute;
+    top: 10.5px;
+    right: -48px;
+    z-index: -13;
+}
+
+.section_1_11 {
+    position: absolute;
+    top: 8.5px;
+    right: -40px;
+    z-index: -12;
+}
+
+.section_1_12 {
+    position: absolute;
+    top: 19.5px;
+    right: 3px;
+    z-index: -11;
+}
+
+.second-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+.second-section .images-wrapper {
+    position: absolute;
+    display: flex;
+    padding: 200px 0;
+    top: 20%;
+    overflow: hidden;
+}
+
+.image-container {
+    overflow: hidden;
+    height: 100%;
+}
+
+.third-section {
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+.third-section .images-wrapper {
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third-section .images-wrapper img {
+    position: absolute;
+}
+
+.forth-section {
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+.forth-section .images-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forth-section .images-wrapper img {
+    position: absolute;
+}
+@media (max-width:1080px){
+    .first-section{
+        display: none;
+    }
+    .scrollmagic-pin-spacer{
+        display: none;
+    }
+}
+
+}

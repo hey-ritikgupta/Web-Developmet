@@ -1,0 +1,72 @@
+HTTrack3.49-2 launched on Fri, 07 Feb 2020 17:33:53 at http://dark.paul-themes.com/wp/bauhaus/full-page/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w http://dark.paul-themes.com/wp/bauhaus/full-page/ -O "/Users/apple/websites/cg" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:33:55	Warning: 	Found for dark.paul-themes.com/robots.txt
+17:33:55	Warning: 	File has moved from dark.paul-themes.com/robots.txt to http://paul-themes.com/wordpress/arquito/
+17:36:04	Warning: 	Found for maps.google.com/
+17:36:04	Warning: 	File has moved from maps.google.com/ to http://maps.google.com/maps
+17:36:05	Error: 	"Not Found" (404) at link fonts.googleapis.com/ (from dark.paul-themes.com/wp/bauhaus/full-page/)
+17:36:06	Warning: 	Note: due to s.w.org remote robots.txt rules, links beginning with these path will be forbidden: /search, /support/rss, /archive/, /?filters (see in the options to disable this)
+17:36:06	Warning: 	Moved Permanently for s.w.org/
+17:36:06	Warning: 	File has moved from s.w.org/ to https://wordpress.org/
+17:36:06	Warning: 	Moved Permanently for dark.paul-themes.com/wp/bauhaus/?p=75
+17:36:06	Warning: 	File has moved from dark.paul-themes.com/wp/bauhaus/?p=75 to http://dark.paul-themes.com/wp/bauhaus/full-page/
+17:36:06	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dark.paul-themes.com/wp/bauhaus/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp
+17:36:06	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dark.paul-themes.com/wp/bauhaus/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1
+17:36:08	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dark.paul-themes.com/wp/bauhaus/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.4.1
+17:36:08	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dark.paul-themes.com/wp/bauhaus/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.1
+17:36:11	Warning: 	HTML file (77269 bytes) retransferred due to lack of cache: dark.paul-themes.com/wp/bauhaus/wp-json/
+17:36:16	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dark.paul-themes.com/wp/bauhaus/xmlrpc.php?rsd
+17:36:18	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dark.paul-themes.com/wp/bauhaus/wp-includes/wlwmanifest.xml
+17:36:19	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dark.paul-themes.com/wp/bauhaus/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdark.paul-themes.com%2Fwp%2Fbauhaus%2Ffull-page%2F
+17:36:20	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dark.paul-themes.com/wp/bauhaus/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdark.paul-themes.com%2Fwp%2Fbauhaus%2Ffull-page%2F&format=xml
+17:36:23	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dark.paul-themes.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+17:36:24	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/js/main.js?ver=1
+17:36:24	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dark.paul-themes.com/wp/bauhaus/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.8
+17:36:24	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dark.paul-themes.com/wp/bauhaus/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4
+17:36:25	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/js/smoothscroll.js?ver=1
+17:36:25	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/js/bootstrap.min.js?ver=1
+17:36:25	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/js/animsition.min.js?ver=1
+17:36:27	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/js/jquery.magnific-popup.min.js?ver=1
+17:36:27	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/js/wow.min.js?ver=1
+17:36:27	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/js/jquery.stellar.min.js?ver=1
+17:36:27	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/js/jquery.validate.min.js?ver=1
+17:36:29	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/js/isotope.pkgd.min.js?ver=1
+17:36:29	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/js/jquery.pagepiling.js?ver=1
+17:36:29	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dark.paul-themes.com/wp/bauhaus/wp-includes/js/imagesloaded.min.js?ver=3.2.0
+17:36:29	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/js/owl.carousel.min.js?ver=1
+17:36:31	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/js/plugins.js?ver=1
+17:36:31	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/js/sly.min.js?ver=1
+17:36:33	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dark.paul-themes.com/wp/bauhaus/wp-includes/js/wp-embed.min.js?ver=5.2.5
+17:36:33	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/js/gmap.js?ver=1
+17:36:33	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/js/scripts-dark.js?ver=1
+17:36:33	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dark.paul-themes.com/wp/bauhaus/wp-includes/js/comment-reply.min.js?ver=5.2.5
+17:36:35	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dark.paul-themes.com/wp/bauhaus/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.6
+17:36:35	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): dark.paul-themes.com/assets/js/jquery-light.js
+17:37:41	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): fonts.googleapis.com/css?family=Playfair+Display%3A400%2C400i%2C700%2C700i%7CPoppins%3A300%2C400%2C500%2C600%2C700&ver=5.2.5
+17:37:42	Warning: 	HTML file (797 bytes) retransferred due to lack of cache: dark.paul-themes.com/wp/bauhaus/?p=75
+17:37:43	Warning: 	Moved Permanently for dark.paul-themes.com/wp/bauhaus/?p=75
+17:37:43	Warning: 	File has moved from dark.paul-themes.com/wp/bauhaus/?p=75 to http://dark.paul-themes.com/wp/bauhaus/full-page/
+17:37:43	Error: 	"Forbidden" (403) at link translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2 (from dark.paul-themes.com/wp/bauhaus/full-page/)
+17:37:43	Warning: 	Retry after error -4 (No data (connection closed)) at link dark.paul-themes.com/wp/bauhaus/images_dark/2017/04/bg2-3.jpg (from dark.paul-themes.com/wp/bauhaus/full-page/)
+17:39:32	Error: 	"Not Found" (404) at link dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/images/projects/1-1920x1080.jpg (from dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/css/dark-style.css?ver=5.2.5)
+17:39:32	Error: 	"Not Found" (404) at link dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/images/news/1-1920x1080.jpg (from dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/css/dark-style.css?ver=5.2.5)
+17:39:32	Error: 	"Not Found" (404) at link dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/images/1-1920x800.jpg (from dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/css/dark-style.css?ver=5.2.5)
+17:40:34	Error: 	"Not Found" (404) at link dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/fonts/glyphicons-halflings-regular.svg (from dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/css/bootstrap.css)
+17:40:34	Error: 	"Not Found" (404) at link dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/fonts/revicons/revicons.svg?5510888 (from dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/css/settings.css)
+17:40:34	Error: 	"Not Found" (404) at link dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/css/openhand.cur (from dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/css/settings.css)
+17:40:34	Error: 	"Not Found" (404) at link dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/css/closedhand.cur (from dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/css/settings.css)
+17:40:34	Error: 	"Not Found" (404) at link dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/assets/gridtile.png (from dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/css/settings.css)
+17:40:34	Error: 	"Not Found" (404) at link dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/assets/gridtile_white.png (from dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/css/settings.css)
+17:40:34	Error: 	"Not Found" (404) at link dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/assets/gridtile_3x3.png (from dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/css/settings.css)
+17:40:34	Error: 	"Not Found" (404) at link dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/assets/gridtile_3x3_white.png (from dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/css/settings.css)
+17:40:34	Error: 	"Not Found" (404) at link dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/assets/coloredbg.png (from dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/css/settings.css)
+17:40:34	Error: 	"Not Found" (404) at link dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/assets/loader.gif (from dark.paul-themes.com/wp/bauhaus/wp-content/themes/bauhaus/css/settings.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 6 minutes 41 seconds : 171 links scanned, 200 files written (9857449 bytes overall) [5475556 bytes received at 13654 bytes/sec], 4319318 bytes transferred using HTTP compression in 115 files, ratio 34%, 4.7 requests per connection
+(15 errors, 46 warnings, 0 messages)

@@ -1,0 +1,764 @@
+/*! ------------------------------------------------
+   Project Name: Crispio Coming Soon & Landing Page Template for Agencies and Freelansers
+   Project Description: Crispio - trendy coming soon & landing page template to kick-start your project
+   Tags: crispio, coming soon, under construction, template, coming soon page, landing page, one page, html5, css3
+   Version: 1.0.0
+   Build Date: April 2019
+   Last Update: April 2019
+   This product is available exclusively on Themeforest
+   Author: mix_design
+   Author URI: http://mixdesign.club
+   File name: color-2.css
+   ------------------------------------------------
+
+   ------------------------------------------------
+   Table of Contents
+   ------------------------------------------------
+    1. Base Template Colors
+    2. Typography Colors
+    3. Buttons & Triggers Colors
+    4. Forms and Forms Reply Groups Colors
+    5. Main Section Colors
+    6. Menu Colors
+    7. Countdown Colors
+    8. Swiper Slider Custom Colors
+    9. Popup Dialogs Colors
+    10. Content Section Colors
+    11. Custom Scroll Colors
+    12. Custom Skillbars Colors
+    11. Blockquote Colors
+    12. Team Block Colors
+    13. Contact Data Colors
+    14. Google Map Colors
+    15. Gallery Custom Colors
+   ------------------------------------------------
+   Table of Contents End
+   ------------------------------------------------ */
+/* ------------------------------------------------*/
+/* Base Template Colors Start */
+/* ------------------------------------------------*/
+::-moz-selection {
+  background-color: #f54d70;
+  color: #ffffff;
+  text-shadow: none;
+}
+::selection {
+  background-color: #f54d70;
+  color: #ffffff;
+  text-shadow: none;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.layer-gradient-dark {
+  background: -webkit-linear-gradient(315deg, rgba(41, 8, 58, 0.6) 0%, rgba(10, 62, 74, 0.6) 100%);
+  background: -moz- oldlinear-gradient(315deg, rgba(41, 8, 58, 0.6) 0%, rgba(10, 62, 74, 0.6) 100%);
+  background: -o-linear-gradient(315deg, rgba(41, 8, 58, 0.6) 0%, rgba(10, 62, 74, 0.6) 100%);
+  background: linear-gradient(135deg, rgba(41, 8, 58, 0.6) 0%, rgba(10, 62, 74, 0.6) 100%);
+}
+
+.layer-dark {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.bg-dark {
+  background-color: #191919;
+}
+
+/* ------------------------------------------------*/
+/* Base Template Colors End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Typography Colors Start */
+/* ------------------------------------------------*/
+h1 {
+  color: #111111;
+}
+
+.headline__text {
+  font-weight: 400;
+  color: #111111;
+}
+
+h2 {
+  color: #111111;
+}
+
+.section-title__subtitle {
+  font-weight: 400;
+  color: #111111;
+}
+
+.section-title__subtitle .line {
+  background-color: #191919;
+}
+
+.section-title__text {
+  font-weight: 400;
+}
+
+h3 {
+  color: #111111;
+}
+
+h3 small {
+  font-weight: 400;
+  color: #111111;
+}
+
+h3 small .line {
+  background-color: #191919;
+}
+
+h5 {
+  color: #111111;
+}
+
+p {
+  font-weight: 400;
+  color: #444;
+}
+
+p span {
+  color: #111111;
+}
+
+.image-caption p,
+.image-caption span {
+  color: #111111;
+  background-color: #ffffff;
+}
+
+p.popup-title__title {
+  color: #ffffff;
+}
+
+.popup-title__text {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* ------------------------------------------------*/
+/* Typography Colors End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Buttons & Triggers Colors Start */
+/* ------------------------------------------------*/
+.menu-trigger span::before, .menu-trigger span::after {
+  background-color: #ffffff;
+}
+
+.menu-trigger.dark span::before, .menu-trigger.dark span::after {
+  background-color: #191919;
+}
+
+.menu-close::before, .menu-close::after,
+.popup-close::before,
+.popup-close::after {
+  background-color: #cccccc;
+}
+
+.no-touch .menu-close:hover::before, .no-touch .menu-close:hover::after, .no-touch
+.popup-close:hover::before, .no-touch
+.popup-close:hover::after {
+  background-color: #ffffff;
+}
+
+.btn-s {
+  color: #111111;
+}
+
+.btn-s .title {
+  color: #111111;
+}
+
+.btn-s .hover {
+  color: #f54d70;
+  background: -webkit-linear-gradient(-45deg, #f52587 0%, #f8b538 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-filter: hue-rotate(0deg);
+          filter: hue-rotate(0deg);
+}
+
+.no-touch .btn-s:hover .hover {
+  -webkit-filter: hue-rotate(0deg);
+          filter: hue-rotate(0deg);
+}
+
+.btn-l .btn-caption {
+  color: #111111;
+}
+
+.btn-l .btn-border {
+  border: 1px solid #8c8c8c;
+}
+
+.btn-l .btn-hover {
+  background-image: -webkit-linear-gradient(315deg, #f52587 0%, #f8b538 100%);
+  background-image: -moz- oldlinear-gradient(315deg, #f52587 0%, #f8b538 100%);
+  background-image: -o-linear-gradient(315deg, #f52587 0%, #f8b538 100%);
+  background-image: linear-gradient(135deg, #f52587 0%, #f8b538 100%);
+}
+
+.no-touch .btn-l:hover .btn-caption {
+  color: #ffffff;
+}
+
+.no-touch .btn-l:hover .btn-hover {
+  -webkit-filter: hue-rotate(0deg);
+          filter: hue-rotate(0deg);
+}
+
+.btn-l-reverse .btn-caption {
+  color: #ffffff;
+}
+
+.btn-l-reverse .btn-border {
+  border: 1px solid #ffffff;
+}
+
+.btn-l-reverse .btn-hover {
+  background-image: -webkit-linear-gradient(315deg, #f52587 0%, #f8b538 100%);
+  background-image: -moz- oldlinear-gradient(315deg, #f52587 0%, #f8b538 100%);
+  background-image: -o-linear-gradient(315deg, #f52587 0%, #f8b538 100%);
+  background-image: linear-gradient(135deg, #f52587 0%, #f8b538 100%);
+}
+
+.no-touch .btn-l-reverse:hover .btn-caption {
+  color: #111111;
+}
+
+.no-touch .btn-l-reverse:hover .btn-hover {
+  -webkit-filter: hue-rotate(0deg);
+          filter: hue-rotate(0deg);
+}
+
+.section-close {
+  color: #ffffff;
+  background-image: -webkit-linear-gradient(315deg, #f52587 0%, #f8b538 100%);
+  background-image: -moz- oldlinear-gradient(315deg, #f52587 0%, #f8b538 100%);
+  background-image: -o-linear-gradient(315deg, #f52587 0%, #f8b538 100%);
+  background-image: linear-gradient(135deg, #f52587 0%, #f8b538 100%);
+}
+
+.no-touch .section-close:hover {
+  color: #111111;
+  -webkit-filter: hue-rotate(0deg);
+          filter: hue-rotate(0deg);
+}
+
+/* ------------------------------------------------*/
+/* Buttons & Triggers Colors End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Forms and Forms Reply Groups Colors Start */
+/* ------------------------------------------------*/
+.form-light {
+  -moz-placeholder-color: rgba(255, 255, 255, 0.6);
+  -ms-input-placeholder-color: rgba(255, 255, 255, 0.6);
+}
+
+.form-light input, .form-light textarea {
+  font-weight: 300;
+}
+
+.form-light ::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.form-light ::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.form-light input:focus:required:invalid,
+.form-light textarea:focus:required:invalid {
+  color: #ffffff;
+}
+
+.form-light input:required:valid,
+.form-light textarea:required:valid {
+  color: #ffffff;
+}
+
+.form-light input, .form-light textarea {
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.form-light input:focus, .form-light textarea:focus {
+  border-bottom: 1px solid #f54d70;
+}
+
+.form-light .inputs-description {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.reply-group__icon {
+  color: #f54d70;
+}
+
+.reply-group__icon::before {
+  background: -webkit-linear-gradient(-45deg, #f52587 0%, #f8b538 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.reply-group__title {
+  color: #111111;
+}
+
+.reply-group__title.light {
+  color: #ffffff;
+}
+
+.reply-group__text {
+  color: #444;
+}
+
+.reply-group__text.light {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* ------------------------------------------------*/
+/* Forms and Forms Reply Groups Colors End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Main Section Colors Start */
+/* ------------------------------------------------*/
+.main-section {
+  background-color: transparent;
+}
+
+.main-section__header .header-container {
+  background-color: #ffffff;
+}
+
+.main-section__intro {
+  background-color: #ffffff;
+}
+
+.intro-socials {
+  background-color: #e5e9f8;
+}
+
+.socials li a {
+  color: #111111;
+}
+
+.no-touch .socials li:hover a {
+  color: #f54d70;
+}
+
+/* ------------------------------------------------*/
+/* Main Section Colors End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Menu Colors Start */
+/* ------------------------------------------------*/
+.navigation-container {
+  background-color: #191919;
+}
+
+.navigation li a {
+  color: #ffffff;
+}
+
+.navigation li a .title {
+  color: #ffffff;
+}
+
+.navigation li a .hover {
+  color: #f54d70;
+  background: -webkit-linear-gradient(-45deg, #f52587 0%, #f8b538 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.no-touch .navigation li a:hover .hover {
+  -webkit-filter: hue-rotate(0deg);
+          filter: hue-rotate(0deg);
+}
+
+.menu-media__photo .photo-container {
+  background-color: #303030;
+}
+
+.menu-media__contact .contact-container {
+  background-color: #e5e9f8;
+}
+
+.menu-media__contact .contact-content p {
+  color: #111111;
+}
+
+.menu-media__contact .contact-content p a {
+  color: #111111;
+}
+
+.no-touch .menu-media__contact .contact-content p a:hover {
+  color: #f54d70;
+}
+
+.menu-media__socials .socials-container {
+  background-color: #191919;
+}
+
+.menu-media__socials .socials-menu li a {
+  color: #ffffff;
+}
+
+.no-touch .menu-media__socials .socials-menu li:hover a {
+  color: #f54d70;
+}
+
+/* ------------------------------------------------*/
+/* Menu Colors End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Countdown Colors Start */
+/* ------------------------------------------------*/
+.countdown.countdown-days #countdown,
+.countdown.countdown-days .help-text {
+  color: #111111;
+  background-color: #ffffff;
+}
+
+/* ------------------------------------------------*/
+/* Countdown Colors End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Swiper Slider Custom Colors Start */
+/* ------------------------------------------------*/
+.controls-container {
+  background-image: -webkit-linear-gradient(315deg, #f52587 0%, #f8b538 100%);
+  background-image: -moz- oldlinear-gradient(315deg, #f52587 0%, #f8b538 100%);
+  background-image: -o-linear-gradient(315deg, #f52587 0%, #f8b538 100%);
+  background-image: linear-gradient(135deg, #f52587 0%, #f8b538 100%);
+  -webkit-filter: hue-rotate(0deg);
+          filter: hue-rotate(0deg);
+}
+
+.no-touch .controls-container:hover {
+  -webkit-filter: hue-rotate(0deg);
+          filter: hue-rotate(0deg);
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #ffffff;
+}
+
+.no-touch .swiper-button-prev:hover, .no-touch
+.swiper-button-next:hover {
+  color: #111111;
+}
+
+.swiper-button-prev.swiper-button-disabled,
+.swiper-button-next.swiper-button-disabled {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.slide-caption {
+  color: #111111;
+}
+
+.slide-caption span {
+  color: #111111;
+  background-color: #ffffff;
+}
+
+.slide-caption span .line {
+  background-color: #191919;
+}
+
+.slide-caption p {
+  color: #111111;
+  background-color: #ffffff;
+}
+
+/* ------------------------------------------------*/
+/* Swiper Slider Custom Colors End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Popup Dialogs Colors Start */
+/* ------------------------------------------------*/
+.notify,
+.writealine {
+  background-color: #191919;
+}
+
+/* ------------------------------------------------*/
+/* Popup Dialogs Colors End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Content Section Colors Start */
+/* ------------------------------------------------*/
+.content-section {
+  background-color: transparent;
+}
+
+.content-section__info,
+.content-section__media {
+  background-color: #ffffff;
+}
+
+.media-holder {
+  background-color: #191919;
+}
+
+/* ------------------------------------------------*/
+/* Content Section Colors End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Custom Scroll Colors Start */
+/* ------------------------------------------------*/
+.mCSB_draggerContainer {
+  background-color: transparent;
+}
+
+.mCSB_scrollTools .mCSB_draggerRail {
+  background-color: #E6E6E6;
+}
+
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  background: -webkit-gradient(linear, left top, left bottom, from(#f52587), to(#f8b538));
+  background: -webkit-linear-gradient(top, #f52587 0%, #f8b538 100%);
+  background: -moz- oldlinear-gradient(top, #f52587 0%, #f8b538 100%);
+  background: -o-linear-gradient(top, #f52587 0%, #f8b538 100%);
+  background: linear-gradient(to bottom, #f52587 0%, #f8b538 100%);
+  -webkit-filter: hue-rotate(0deg);
+          filter: hue-rotate(0deg);
+  -webkit-transition: -webkit-filter 0.8s;
+  transition: -webkit-filter 0.8s;
+  -o-transition: filter 0.8s;
+  -moz-transition: filter 0.8s;
+  transition: filter 0.8s;
+  transition: filter 0.8s, -webkit-filter 0.8s;
+}
+
+.no-touch .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar:hover {
+  -webkit-filter: hue-rotate(0deg);
+          filter: hue-rotate(0deg);
+}
+
+.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+  background: -webkit-gradient(linear, left top, left bottom, from(#f52587), to(#f8b538));
+  background: -webkit-linear-gradient(top, #f52587 0%, #f8b538 100%);
+  background: -moz- oldlinear-gradient(top, #f52587 0%, #f8b538 100%);
+  background: -o-linear-gradient(top, #f52587 0%, #f8b538 100%);
+  background: linear-gradient(to bottom, #f52587 0%, #f8b538 100%);
+}
+
+.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+  background: -webkit-gradient(linear, left top, left bottom, from(#f52587), to(#f8b538));
+  background: -webkit-linear-gradient(top, #f52587 0%, #f8b538 100%);
+  background: -moz- oldlinear-gradient(top, #f52587 0%, #f8b538 100%);
+  background: -o-linear-gradient(top, #f52587 0%, #f8b538 100%);
+  background: linear-gradient(to bottom, #f52587 0%, #f8b538 100%);
+}
+
+/* ------------------------------------------------*/
+/* Custom Scroll Colors End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Custom Skillbars Colors Start */
+/* ------------------------------------------------*/
+.skillbar {
+  border-bottom: 4px solid #E6E6E6;
+}
+
+.no-touch .skillbar:hover .skillbar-bar {
+  -webkit-filter: hue-rotate(0deg);
+          filter: hue-rotate(0deg);
+}
+
+.skillbar-title {
+  color: #111111;
+}
+
+.skillbar-bar {
+  background: -webkit-gradient(linear, left top, right top, from(#f52587), to(#f8b538));
+  background: -webkit-linear-gradient(left, #f52587 0%, #f8b538 100%);
+  background: -moz- oldlinear-gradient(left, #f52587 0%, #f8b538 100%);
+  background: -o-linear-gradient(left, #f52587 0%, #f8b538 100%);
+  background: linear-gradient(to right, #f52587 0%, #f8b538 100%);
+  -webkit-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  transition: all 0.8s;
+  -webkit-filter: hue-rotate(0deg);
+          filter: hue-rotate(0deg);
+}
+
+.no-touch .skillbar-bar:hover {
+  -webkit-filter: hue-rotate(0deg);
+          filter: hue-rotate(0deg);
+}
+
+.skill-bar-percent {
+  color: #111111;
+}
+
+/* ------------------------------------------------*/
+/* Custom Skillbars Colors End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Blockquote Colors Start */
+/* ------------------------------------------------*/
+blockquote .quote {
+  color: #111111;
+}
+
+blockquote p {
+  color: #111111;
+}
+
+blockquote cite {
+  color: #111111;
+}
+
+blockquote.light .quote {
+  color: #ffffff;
+}
+
+blockquote.light p {
+  color: #ffffff;
+}
+
+blockquote.light cite {
+  color: #ffffff;
+}
+
+/* ------------------------------------------------*/
+/* Blockquote Colors End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Team Block Colors Start */
+/* ------------------------------------------------*/
+.team-socials li a {
+  color: #444;
+}
+
+.no-touch .team-socials li:hover a {
+  color: #111111;
+}
+
+/* ------------------------------------------------*/
+/* Team Block Colors End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Contact Data Colors Start */
+/* ------------------------------------------------*/
+.contact-data__item p {
+  color: #111111;
+}
+
+.contact-data__item p a {
+  color: #111111;
+}
+
+.no-touch .contact-data__item p a:hover {
+  color: #f54d70;
+}
+
+.contact-data__item ul li a {
+  color: #111111;
+}
+
+.no-touch .contact-data__item ul li:hover a {
+  color: #f54d70;
+}
+
+/* ------------------------------------------------*/
+/* Contact Data Colors End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Google Map Colors Start */
+/* ------------------------------------------------*/
+#zoom-in, #zoom-out {
+  color: #ffffff;
+  background-image: -webkit-linear-gradient(315deg, #f52587 0%, #f8b538 100%);
+  background-image: -moz- oldlinear-gradient(315deg, #f52587 0%, #f8b538 100%);
+  background-image: -o-linear-gradient(315deg, #f52587 0%, #f8b538 100%);
+  background-image: linear-gradient(135deg, #f52587 0%, #f8b538 100%);
+  -webkit-filter: hue-rotate(0deg);
+          filter: hue-rotate(0deg);
+}
+
+#zoom-in .btn-icon, #zoom-out .btn-icon {
+  color: #ffffff;
+}
+
+.no-touch #zoom-in:hover, .no-touch #zoom-out:hover {
+  -webkit-filter: hue-rotate(0deg);
+          filter: hue-rotate(0deg);
+}
+
+.no-touch #zoom-in:hover .btn-icon, .no-touch #zoom-out:hover .btn-icon {
+  color: #111111;
+}
+
+/* ------------------------------------------------*/
+/* Google Map Colors End */
+/* ------------------------------------------------*/
+/* ------------------------------------------------*/
+/* Gallery Custom Colors Start */
+/* ------------------------------------------------*/
+.my-gallery figure figcaption h4 {
+  color: #111111;
+  background-color: #ffffff;
+}
+
+.my-gallery figure figcaption span {
+  color: #111111;
+  background-color: #ffffff;
+}
+
+.pswp__caption__center h4 {
+  color: #ffffff;
+}
+
+.pswp__caption__center span {
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.pswp__caption__center p {
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.pswp__caption__center h4 {
+  color: #ffffff;
+}
+
+.pswp__caption__center h4 small {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.pswp__caption__center p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.pswp__bg {
+  background: #191919;
+}
+
+.pswp__caption, .pswp__top-bar {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.pswp__button--close {
+  background-color: #ffffff;
+}
+
+/* ------------------------------------------------*/
+/* Gallery Custom Colors End */
+/* ------------------------------------------------*/

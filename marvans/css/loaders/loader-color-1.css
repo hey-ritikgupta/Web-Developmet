@@ -1,0 +1,393 @@
+/*! ------------------------------------------------
+   Project Name: Crispio Coming Soon & Landing Page Template for Agencies and Freelansers
+   Project Description: Crispio - trendy coming soon & landing page template to kick-start your project
+   Tags: crispio, coming soon, under construction, template, coming soon page, landing page, one page, html5, css3
+   Version: 1.0.0
+   Build Date: April 2019
+   Last Update: April 2019
+   This product is available exclusively on Themeforest
+   Author: mix_design
+   Author URI: http://mixdesign.club
+   File name: loader-color-1.css
+   ------------------------------------------------
+
+   ------------------------------------------------
+   Table of Contents
+   ------------------------------------------------
+    1. Loader Styles
+   ------------------------------------------------
+   Table of Contents End
+   ------------------------------------------------ */
+.loader {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: #191919;
+  opacity: 1;
+  visibility: visible;
+}
+
+.loader.fade {
+  background-color: transparent;
+}
+
+.loader.loaded {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader .loader-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+     -moz-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+
+.loader .loader-content .loader-logo {
+  position: relative;
+  padding: 12px 20px;
+  overflow: hidden;
+}
+
+.loader .loader-content .loader-logo.animate-in::after {
+  -webkit-animation: 0.8s ease-in-out 1 both blockMove;
+     -moz-animation: 0.8s ease-in-out 1 both blockMove;
+          animation: 0.8s ease-in-out 1 both blockMove;
+}
+
+.loader .loader-content .loader-logo.animate-in img {
+  -webkit-animation: 0.8s ease-in-out 1 both itemsOpacity;
+     -moz-animation: 0.8s ease-in-out 1 both itemsOpacity;
+          animation: 0.8s ease-in-out 1 both itemsOpacity;
+}
+
+.loader .loader-content .loader-logo.animate-out::after {
+  -webkit-animation: 0.8s ease-in-out 1 both blockMove2;
+     -moz-animation: 0.8s ease-in-out 1 both blockMove2;
+          animation: 0.8s ease-in-out 1 both blockMove2;
+  animation-direction: reverse;
+}
+
+.loader .loader-content .loader-logo.animate-out img {
+  -webkit-animation: 0.8s ease-in-out 1 both itemsOpacity2;
+     -moz-animation: 0.8s ease-in-out 1 both itemsOpacity2;
+          animation: 0.8s ease-in-out 1 both itemsOpacity2;
+}
+
+.loader .loader-content .loader-logo::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#b721ff), to(#21d4fd));
+  background: -webkit-linear-gradient(left, #b721ff 0%, #21d4fd 100%);
+  background: -moz- oldlinear-gradient(left, #b721ff 0%, #21d4fd 100%);
+  background: -o-linear-gradient(left, #b721ff 0%, #21d4fd 100%);
+  background: linear-gradient(to right, #b721ff 0%, #21d4fd 100%);
+  -webkit-transform: translateX(-101%);
+     -moz-transform: translateX(-101%);
+      -ms-transform: translateX(-101%);
+          transform: translateX(-101%);
+}
+
+.loader .loader-content .loader-logo img {
+  display: block;
+  width: auto;
+  height: auto;
+  opacity: 0;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation: fadeIn .6s 1;
+     -moz-animation: fadeIn .6s 1;
+          animation: fadeIn .6s 1;
+  -webkit-animation-fill-mode: both;
+     -moz-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fadeOut {
+  -webkit-animation: fadeOut .6s 1;
+     -moz-animation: fadeOut .6s 1;
+          animation: fadeOut .6s 1;
+  -webkit-animation-fill-mode: both;
+     -moz-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+@-webkit-keyframes blockMove {
+  0% {
+    -webkit-transform: translateX(-101%);
+            transform: translateX(-101%);
+  }
+  40% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  50% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(101%);
+            transform: translateX(101%);
+  }
+}
+
+@-moz-keyframes blockMove {
+  0% {
+    -moz-transform: translateX(-101%);
+         transform: translateX(-101%);
+  }
+  40% {
+    -moz-transform: translateX(0);
+         transform: translateX(0);
+  }
+  50% {
+    -moz-transform: translateX(0);
+         transform: translateX(0);
+  }
+  100% {
+    -moz-transform: translateX(101%);
+         transform: translateX(101%);
+  }
+}
+
+@keyframes blockMove {
+  0% {
+    -webkit-transform: translateX(-101%);
+       -moz-transform: translateX(-101%);
+            transform: translateX(-101%);
+  }
+  40% {
+    -webkit-transform: translateX(0);
+       -moz-transform: translateX(0);
+            transform: translateX(0);
+  }
+  50% {
+    -webkit-transform: translateX(0);
+       -moz-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(101%);
+       -moz-transform: translateX(101%);
+            transform: translateX(101%);
+  }
+}
+
+@-webkit-keyframes itemsOpacity {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes itemsOpacity {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes itemsOpacity {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes blockMove2 {
+  0% {
+    -webkit-transform: translateX(101%);
+            transform: translateX(101%);
+  }
+  40% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  50% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-101%);
+            transform: translateX(-101%);
+  }
+}
+
+@-moz-keyframes blockMove2 {
+  0% {
+    -moz-transform: translateX(101%);
+         transform: translateX(101%);
+  }
+  40% {
+    -moz-transform: translateX(0);
+         transform: translateX(0);
+  }
+  50% {
+    -moz-transform: translateX(0);
+         transform: translateX(0);
+  }
+  100% {
+    -moz-transform: translateX(-101%);
+         transform: translateX(-101%);
+  }
+}
+
+@keyframes blockMove2 {
+  0% {
+    -webkit-transform: translateX(101%);
+       -moz-transform: translateX(101%);
+            transform: translateX(101%);
+  }
+  40% {
+    -webkit-transform: translateX(0);
+       -moz-transform: translateX(0);
+            transform: translateX(0);
+  }
+  50% {
+    -webkit-transform: translateX(0);
+       -moz-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-101%);
+       -moz-transform: translateX(-101%);
+            transform: translateX(-101%);
+  }
+}
+
+@-webkit-keyframes itemsOpacity2 {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes itemsOpacity2 {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes itemsOpacity2 {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
